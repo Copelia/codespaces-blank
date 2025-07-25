@@ -1,0 +1,28 @@
+body {
+  background: green;
+  padding: 0 24px;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column; /* Cambia a columna para apilar los elementos */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Da estilo flex a la lista */
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espacio entre canciones */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: flex-start; /* Opcional: alinea a la izquierda */
+}
+
+li {
+  background: rgba(0,0,0,0.2);
+  padding: 8px 16px;
+  border-radius: 8px;
+}
